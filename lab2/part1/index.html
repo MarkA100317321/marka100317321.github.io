@@ -112,7 +112,7 @@
 
     <main>
       <article>
-        <iframe height="300" width="400" src="https://www.youtube.com/embed/ojcNcvb1olg">
+        <iframe width="400" src="https://www.youtube.com/embed/ojcNcvb1olg style="height:auto;">
 	</iframe>
 
         <h2>Rocking the free web</h2>
@@ -126,43 +126,42 @@
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           <img 
-		src="firefox_logo-only_RGB_resize.png"
+		src="./images/firefox_logo-only_RGB_resize.png"
 		alt="mozilla firefox logo new"
-		srcset="firefox_logo-only_RGB_resize.png 400w, firefox_logo-only_RGB.png 1200w"
+		srcset="./images/firefox_logo-only_RGB_resize.png 400w, ./images/firefox_logo-only_RGB.png 1200w"
 		sizes="(max-width:600px) 400px, 50vw" />
         </a>
         <a href="https://www.mozilla.org/">
           <img 
-		src="mozilla-dinosaur-head_resize.png"
+		src="./images/mozilla-dinosaur-head_resize.png"
 		alt="mozilla logo old"
-		srcset="mozilla-dinosaur-head_resize.png 400w, mozilla-dinosaur-head.png 1200w"
+		srcset="./images/mozilla-dinosaur-head_resize.png 400w, ./images/mozilla-dinosaur-head.png 1200w"
 		sizes="(max-width:600px) 400px, 50vw" />
         </a>
         <a href="https://addons.mozilla.org/">
           <img 
-		src="firefox-addons_resize.jpg"
+		src="./images/firefox-addons_resize.jpg"
 		alt="firefox addons"
-		srcset="firefox-addons_resize.jpg 400w, firefox-addons.jpg 1200w"
+		srcset="./images/firefox-addons_resize.jpg 400w, ./images/firefox-addons.jpg 1200w"
 		sizes="(max-width:600px) 400px, 50vw" />
         </a>
         <a href="https://developer.mozilla.org/en-US/">
           <img 
-		src="mdn.svg"
+		src="./images/mdn.svg"
 		alt="MDN"
 		role="img"
-		srcset="mdn.svg 400w, mdn.svg 1200w"
+		srcset="./images/mdn.svg 400w, ./images/mdn.svg 1200w"
 		sizes="(max-width:600px) 400px, 50vw" />
         </a>
         <div class="clearfix"></div>
       </div>
 
-      <div class="red-panda">
-          <img 
-		src="red-panda_resize.jpg"
-		alt="red panda"
-		srcset="red-panda_resize.jpg 1200w, red-panda.jpg 1600w"
-		sizes="(max-width:600px) 400px, 50vw" />
-      </div>
+	<div class="red-panda">
+        	<picture>
+          		<source media="(min-width:600px)" srcset="./images/red-panda_resize.jpg">
+          		<img src="./images/red-panda_resize_2.jpg" alt="Red Panda in a Tree" style="width:auto;">
+    		</picture>
+	</div>
 
     </main>
   </body>
