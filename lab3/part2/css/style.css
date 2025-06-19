@@ -12,7 +12,10 @@ div {
   align-content: center;
   font-size: 1.1rem;
   <!--used https://nekocalc.com/px-to-rem-converter to convert-->
-  contrast-color(blue)
-  contrast-color(var(--backgroundColor))
+  background-color(blue);
+  contrast-color(var(--backgroundColor));
+  text-shadow: 1px 1px 1px black;
+  border-radius: 3px;
+  border: 1px solid royalblue;
   
 }
