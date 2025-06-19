@@ -7,7 +7,7 @@ html {
 div {
   width: 200px;
   height: 200px;
-  vertical-align: middle;
-  
+  align-items: center;
+  align-content: center;
   
 }
