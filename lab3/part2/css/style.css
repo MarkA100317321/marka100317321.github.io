@@ -8,19 +8,23 @@ html {
 div {
   width: 200px;
   height: 200px;
+  margin: 0 auto;
   
+
   text-align: center;
   color: white;
 
-  align-content: center;
+  align-items: center;
   
+
   font-size: 1.1rem;
+
 
   background-color: gray;
   
   text-shadow: 1px 1px 1px black;
   
   border-radius: 3px;
-  border: 1px solid royalblue;
+  border: 3px solid black;
   
 }
