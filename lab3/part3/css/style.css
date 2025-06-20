@@ -46,20 +46,24 @@ header, footer {
 
 @font-face {
 	font-family: 'MarkaziText';
-    	src: url('./fonts/MarkaziText-Regular.ttf');
+    	src: 
+		local("MarkaziText-Regular"),
+		url('./fonts/MarkaziText-Regular.ttf');
 	font-weight: normal;
     	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Geist-Regular';
-    	src: url('./fonts/Geist-Regular.ttf');
+    	src: 
+		local("Geist-Regular")
+		url('./fonts/Geist-Regular.ttf');
 	font-weight: normal;
     	font-style: normal;	
 }
 
 html {
-	font-family: Markazi-Regular;
+	font-family: MarkaziText-Regular;
 	font-size: 10px;
 }
 
