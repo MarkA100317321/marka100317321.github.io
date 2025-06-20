@@ -23,7 +23,7 @@ div {
   linear gradient(to left top,
 	rgba(0,0,0,0.2) 100%,
 	rgba(0,0,0,0.2) 30%,
-	rgba(0,0,0,0.2)
+	rgba(0,0,0,0.2);
 
   box-shadow: 2px 2px 2px black, inset 2px 2px 2px black, inset -2px -2px 2px black;
 
