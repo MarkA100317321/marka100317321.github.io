@@ -43,3 +43,55 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+@font-face {
+	font-family: 'MarkaziText';
+    	src: url('./fonts/MarkaziText-Regular.ttf');
+	font-weight: normal;
+    	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geist-Regular';
+    	src: url('./fonts/Geist-Regular.ttf');
+	font-weight: normal;
+    	font-style: normal;	
+}
+
+html {
+	font-family: Markazi-Regular;
+	font-size: 10px;
+}
+
+h1, h2 {
+  	font-family: Geist-Regular;
+  	letter-spacing: 2px;
+}
+
+h1 {
+  	font-size: 70px;
+  	text-align: center;
+}
+
+h2 {
+  	font-size: 50px;
+}
+
+section h2 + p {
+  	text-indent: 20px;
+}
+
+p, li {
+  	font-size: 25px;
+  	line-height: 1.5;
+  	letter-spacing: 0.5px;
+  	word-spacing: 3px;
+}
+
+
+
+
+
+
+
+
